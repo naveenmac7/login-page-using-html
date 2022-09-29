@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login page</title>
+    </head>
+
+    <body>
+        <fieldset><div></div>   
+            <h3>Login here</h3>
+            <form action="login.php" method="post" >
+                <hr>
+                <table>
+                    <tr>
+                        <td>User email:</td> 
+                        <td>
+                            <input type="text" name="user" placeholder="enter email"></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>
+                            <input type="password" name="user_pass" placeholder = "enter password"></input>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>
+                                <a href="https://www.tutorialspoint.com/index.htm">login</a>   
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>    
+    </body>
+</html>
